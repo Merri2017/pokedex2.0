@@ -1,0 +1,56 @@
+/*create a new div for the whole mobile
+then put justify center */
+body {
+  background-color: green; }
+
+#mobile {
+  width: 400px;
+  /*making the div 100 percent allowed it to shrink 
+  at a certain size but I don't want it to get larger
+  when the screen is larger, just smaller when screen
+  is smaller. MEDIA Queries*/
+  height: 700px;
+  background: red;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 100px;
+  position: center;
+  padding-top: 65px;
+  margin: auto 0;
+  /*display: flex;
+  justify-content: center;*/ }
+
+@media only screen and (max-width: 811px) {
+  #mobile {
+    width: 100%; } }
+.flex-container {
+  display: flex;
+  /*container will stack flex items vertically*/
+  justify-content: center;
+  /*	 wrapped flex items will continue on next line underneath each other.
+  	flex-wrap: wrap; */ }
+
+#display {
+  width: 85%;
+  height: 85%;
+  background: #A2C8C8;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  margin-top: 10%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  overflow-x: scroll; }
+
+.info {
+  width: 100;
+  height: 100; }
+
+img {
+  width: 100px;
+  height: 100px; }
+
+/*# sourceMappingURL=style.css.map */
