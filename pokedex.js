@@ -76,6 +76,7 @@ function getTogepi () {
 }
 getTogepi();
 
+// I need the pokemon class for code to work, but why?
 class Pokemon{
 	constructor(name, hp, attack, defense, abilities){
 		this.obj = {
@@ -89,27 +90,12 @@ class Pokemon{
 	returnData() {return this.obj}			
 };
 
- var clefairy = new Pokemon ();
- // console.log("clefairy");
-			
+ // class Celina {
+ // 	constructor(){
+ // 		all() 
+ // 			return Pokemon.all
+ 		
+ 		
+ // 	}
 
-class Trainer {
-	constructor(name){
-		this.name = name;
-		this.pokemon=[];
-
-	}
-	add(pokemon){
-		this.pokemons.push(obj)
-	}
-displayAll() {
-    for(let i = 0; i < this.children.length; ++i) {
-      console.log(this.children[i])
-    }
-}
-}
-
-var celina = new Trainer ();
  
-// jquery onclick newDayCare.displayAll()
-

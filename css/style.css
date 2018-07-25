@@ -125,3 +125,27 @@ button{
   transform: translateY(4px);
 }
 /*phone styling ends*/
+
+#trainer{
+  height: 150px;
+  width:150px; 
+  
+}
+
+/*app page*/
+#front_page{
+  color: purple;
+  font-family: 'Poor Story', cursive;
+  animation: zoom-in 5s ;
+
+}
+
+@keyframes zoom-in{
+  0%{
+    font-size: 0px;
+  }
+  
+  100%{
+    font-size: 15px;
+  }
+}
